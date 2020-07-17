@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HackerShrine dynamoDB</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css">
+    <link rel="stylesheet" href="static/css/styles.min.css">
+</head>
+
+<body>
+    <div>
+        <nav class="navbar navbar-light navbar-expand-md navigation-clean">
+            <div class="container"><a class="navbar-brand" href="{{url_for('login')}}" style="color:#b6d781;">HackerShrine</a><button class="navbar-toggler" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+                <div
+                    class="collapse navbar-collapse" id="navcol-1"></div>
+    </div>
+    </nav>
+    </div>
+    <div class="photo-gallery">
+        <div class="container">
+            <div class="intro">
+                <h2 class="text-center">Welcome {{name}} &nbsp;</h2>
+                <p class="text-center">This is your homepage</p>
+            </div>
+            <div class="row photos">
+                <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="static/img/desk.jpg" data-lightbox="photos"><img class="img-fluid" src="static/img/desk.jpg"></a></div>
+                <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="static/img/building.jpg" data-lightbox="photos"><img class="img-fluid" src="static/img/building.jpg"></a></div>
+                <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="static/img/loft.jpg" data-lightbox="photos"><img class="img-fluid" src="static/img/loft.jpg"></a></div>
+                <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="static/img/building.jpg" data-lightbox="photos"><img class="img-fluid" src="static/img/building.jpg"></a></div>
+                <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="static/img/loft.jpg" data-lightbox="photos"><img class="img-fluid" src="static/img/loft.jpg"></a></div>
+                <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="static/img/desk.jpg" data-lightbox="photos"><img class="img-fluid" src="static/img/desk.jpg"></a></div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/js/lightbox.min.js"></script>
+</body>
+
+</html>
