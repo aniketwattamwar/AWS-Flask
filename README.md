@@ -11,3 +11,4 @@ Folder: DynamoDB
 This folder contains the full code for complete signup and login page with database as AWS DynamoDB. It has a table creation py file. 
 app.py contains the flask code. The application authenticates the user credentials by matching the password with database password.
 
+You can find the video explaining everything on the channel HackerShrine: https://www.youtube.com/watch?v=NR9QkgsEjck
