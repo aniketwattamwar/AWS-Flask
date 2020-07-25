@@ -12,3 +12,7 @@ This folder contains the full code for complete signup and login page with datab
 app.py contains the flask code. The application authenticates the user credentials by matching the password with database password.
 
 You can find the video explaining everything on the channel HackerShrine: https://www.youtube.com/watch?v=NR9QkgsEjck
+
+Folder: RDS-MySql
+This will allow you to connect your MySql Workbench with AWS and store data in the database using Flask. When you run the app.py file, you will a form that the user needs to fill, once done the details in the form will stored in the database that you can view it from you workbench. It will also read the details entered from the database and display it back on the frontend.
+
