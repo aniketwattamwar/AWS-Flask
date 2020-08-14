@@ -8,6 +8,7 @@ You can find the video explaining everything on the channel HackerShrine: https:
 
 Medium article: https://medium.com/aws-pocket/uploading-files-to-aws-s3-with-flask-3d3d213404fb
 
+
 Folder: DynamoDB 
 
 This folder contains the full code for complete signup and login page with database as AWS DynamoDB. It has a table creation py file. 
@@ -17,7 +18,9 @@ You can find the video explaining everything on the channel HackerShrine: https:
 
 Medium article: https://medium.com/aws-pocket/aws-dynamodb-flask-login-sign-up-page-31bdda9e7f4
 
+
 Folder: RDS-MySql
+
 This will allow you to connect your MySql Workbench with AWS and store data in the database using Flask. When you run the app.py file, you will a form that the user needs to fill, once done the details in the form will stored in the database that you can view it from you workbench. It will also read the details entered from the database and display it back on the frontend.
 
 You can find the video explaining everything on the channel HackerShrine:
